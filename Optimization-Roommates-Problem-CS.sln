@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimization-Roommates-Problem-CS", "Optimization-Roommates-Problem-CS\Optimization-Roommates-Problem-CS.csproj", "{F094B349-6D87-4027-8B4B-867131FF4698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{F1202E27-F64E-4969-A516-3ADBF61BB0EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F094B349-6D87-4027-8B4B-867131FF4698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F094B349-6D87-4027-8B4B-867131FF4698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F094B349-6D87-4027-8B4B-867131FF4698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F094B349-6D87-4027-8B4B-867131FF4698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1202E27-F64E-4969-A516-3ADBF61BB0EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1202E27-F64E-4969-A516-3ADBF61BB0EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1202E27-F64E-4969-A516-3ADBF61BB0EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1202E27-F64E-4969-A516-3ADBF61BB0EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
