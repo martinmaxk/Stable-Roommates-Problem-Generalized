@@ -28,7 +28,7 @@ Running the experiments with the current configurations can take several hours.
 Branch and bound takes the longest time, after that Simulated Annealing dominates.
 Reducing the MaxNumBranchVars constant can reduce the runtime and vice-versa.
 Branch and Bound will only be run for problems where n*k <= MaxNumBranchVars,
-so the worst-case runtime of Branch and Bound is O(2^MaxNumBranchVars).
+so Branch and Bound will solve O(2^MaxNumBranchVars) linear programs in the worst case.
 
 The program will output a csv file for each combination of metric and value of k for each experiment.
 These files will be in the "bin/Release" folder.
