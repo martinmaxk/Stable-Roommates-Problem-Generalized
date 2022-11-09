@@ -30,6 +30,10 @@ Reducing the MaxNumBranchVars constant can reduce the runtime and vice-versa.
 Branch and Bound will only be run for problems where n*k <= MaxNumBranchVars,
 so Branch and Bound will solve O(2^MaxNumBranchVars) linear programs in the worst case for a combination of n and k.
 
+MaxN is the maximum value of n that will be tried in all the experiments.
+NumRuns is the number of runs performed on each instance (for average and standard deviation) with the exception of
+Branch and Bound which is only executed once for each instance.
+
 The program will output a csv file for each combination of metric and value of k for each experiment.
 These files will be in the "bin/Release" folder.
 Note "k0" does not mean k=0, it means the first value of k for that experiment.
